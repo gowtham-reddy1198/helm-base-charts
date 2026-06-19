@@ -1,2 +1,2 @@
 applications:
-  - name: gowtham
+  - name: nginx-app
