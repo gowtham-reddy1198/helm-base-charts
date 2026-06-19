@@ -9,7 +9,11 @@ spec:
   project: default
   source:
     repoURL: https://github.com/gowtham-reddy1198/gowtham-apps.git
+<<<<<<< HEAD
     targetRevision: master
+=======
+    targetRevision: main
+>>>>>>> 9598756fc4e8673a3ffeba3346bdef0e9f440f06
     path: {{ .name }}
   destination:
     server: https://kubernetes.default.svc
