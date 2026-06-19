@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   apps:
   - apiVersion: v2
-    created: "2026-06-19T23:54:52.5233713+05:30"
+    created: "2026-06-20T00:15:32.7004082+05:30"
+    description: ArgoCD Applications
+    digest: 8c53c3ca539af891152e84ba22bb8cd01aefbb32ff6e303dd5d42c269c1ef268
+    name: apps
+    type: application
+    urls:
+    - https://gowtham-reddy1198.github.io/helm-base-charts/apps-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    created: "2026-06-20T00:15:32.7004082+05:30"
     description: ArgoCD Applications
     digest: 70c7d665f9bcbfe7d1cd08679f213bbbe7e4b453c255c1eb6a441452472d6833
     name: apps
@@ -13,7 +22,7 @@ entries:
   base-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-06-19T23:54:52.5239009+05:30"
+    created: "2026-06-20T00:15:32.7014155+05:30"
     description: Base Deployment and Service Chart
     digest: 6da4df734f9b3dcb8d82699f0d7a39b4c6f5991ec6ec269eb1fa8eb66be3f659
     name: base-chart
@@ -21,4 +30,4 @@ entries:
     urls:
     - https://gowtham-reddy1198.github.io/helm-base-charts/base-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2026-06-19T23:54:52.5228281+05:30"
+generated: "2026-06-20T00:15:32.699889+05:30"
